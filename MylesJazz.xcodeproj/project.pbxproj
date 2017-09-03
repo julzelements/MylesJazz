@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC8661B21F5C2E6100958E78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8661B11F5C2E6100958E78 /* AppDelegate.swift */; };
+		EC8661B41F5C2E6100958E78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8661B31F5C2E6100958E78 /* ViewController.swift */; };
+		EC8661B71F5C2E6100958E78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8661B51F5C2E6100958E78 /* Main.storyboard */; };
+		EC8661B91F5C2E6100958E78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8661B81F5C2E6100958E78 /* Assets.xcassets */; };
+		EC8661BC1F5C2E6100958E78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8661BA1F5C2E6100958E78 /* LaunchScreen.storyboard */; };
+		EC8661C71F5C2E6100958E78 /* MylesJazzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8661C61F5C2E6100958E78 /* MylesJazzTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC8661C31F5C2E6100958E78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC8661A61F5C2E6000958E78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC8661AD1F5C2E6000958E78;
+			remoteInfo = MylesJazz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC8661AE1F5C2E6100958E78 /* MylesJazz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MylesJazz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8661B11F5C2E6100958E78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC8661B31F5C2E6100958E78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC8661B61F5C2E6100958E78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC8661B81F5C2E6100958E78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC8661BB1F5C2E6100958E78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC8661BD1F5C2E6100958E78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC8661C21F5C2E6100958E78 /* MylesJazzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MylesJazzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8661C61F5C2E6100958E78 /* MylesJazzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MylesJazzTests.swift; sourceTree = "<group>"; };
+		EC8661C81F5C2E6100958E78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC8661AB1F5C2E6000958E78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8661BF1F5C2E6100958E78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC8661A51F5C2E6000958E78 = {
+			isa = PBXGroup;
+			children = (
+				EC8661B01F5C2E6100958E78 /* MylesJazz */,
+				EC8661C51F5C2E6100958E78 /* MylesJazzTests */,
+				EC8661AF1F5C2E6100958E78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC8661AF1F5C2E6100958E78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC8661AE1F5C2E6100958E78 /* MylesJazz.app */,
+				EC8661C21F5C2E6100958E78 /* MylesJazzTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC8661B01F5C2E6100958E78 /* MylesJazz */ = {
+			isa = PBXGroup;
+			children = (
+				EC8661B11F5C2E6100958E78 /* AppDelegate.swift */,
+				EC8661B31F5C2E6100958E78 /* ViewController.swift */,
+				EC8661B51F5C2E6100958E78 /* Main.storyboard */,
+				EC8661B81F5C2E6100958E78 /* Assets.xcassets */,
+				EC8661BA1F5C2E6100958E78 /* LaunchScreen.storyboard */,
+				EC8661BD1F5C2E6100958E78 /* Info.plist */,
+			);
+			path = MylesJazz;
+			sourceTree = "<group>";
+		};
+		EC8661C51F5C2E6100958E78 /* MylesJazzTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC8661C61F5C2E6100958E78 /* MylesJazzTests.swift */,
+				EC8661C81F5C2E6100958E78 /* Info.plist */,
+			);
+			path = MylesJazzTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC8661AD1F5C2E6000958E78 /* MylesJazz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8661CB1F5C2E6100958E78 /* Build configuration list for PBXNativeTarget "MylesJazz" */;
+			buildPhases = (
+				EC8661AA1F5C2E6000958E78 /* Sources */,
+				EC8661AB1F5C2E6000958E78 /* Frameworks */,
+				EC8661AC1F5C2E6000958E78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MylesJazz;
+			productName = MylesJazz;
+			productReference = EC8661AE1F5C2E6100958E78 /* MylesJazz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC8661C11F5C2E6100958E78 /* MylesJazzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8661CE1F5C2E6100958E78 /* Build configuration list for PBXNativeTarget "MylesJazzTests" */;
+			buildPhases = (
+				EC8661BE1F5C2E6100958E78 /* Sources */,
+				EC8661BF1F5C2E6100958E78 /* Frameworks */,
+				EC8661C01F5C2E6100958E78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC8661C41F5C2E6100958E78 /* PBXTargetDependency */,
+			);
+			name = MylesJazzTests;
+			productName = MylesJazzTests;
+			productReference = EC8661C21F5C2E6100958E78 /* MylesJazzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC8661A61F5C2E6000958E78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Julian Scharf";
+				TargetAttributes = {
+					EC8661AD1F5C2E6000958E78 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = RR2B862M79;
+						ProvisioningStyle = Automatic;
+					};
+					EC8661C11F5C2E6100958E78 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = RR2B862M79;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC8661AD1F5C2E6000958E78;
+					};
+				};
+			};
+			buildConfigurationList = EC8661A91F5C2E6000958E78 /* Build configuration list for PBXProject "MylesJazz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC8661A51F5C2E6000958E78;
+			productRefGroup = EC8661AF1F5C2E6100958E78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC8661AD1F5C2E6000958E78 /* MylesJazz */,
+				EC8661C11F5C2E6100958E78 /* MylesJazzTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC8661AC1F5C2E6000958E78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8661BC1F5C2E6100958E78 /* LaunchScreen.storyboard in Resources */,
+				EC8661B91F5C2E6100958E78 /* Assets.xcassets in Resources */,
+				EC8661B71F5C2E6100958E78 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8661C01F5C2E6100958E78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC8661AA1F5C2E6000958E78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8661B41F5C2E6100958E78 /* ViewController.swift in Sources */,
+				EC8661B21F5C2E6100958E78 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8661BE1F5C2E6100958E78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8661C71F5C2E6100958E78 /* MylesJazzTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC8661C41F5C2E6100958E78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC8661AD1F5C2E6000958E78 /* MylesJazz */;
+			targetProxy = EC8661C31F5C2E6100958E78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC8661B51F5C2E6100958E78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC8661B61F5C2E6100958E78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC8661BA1F5C2E6100958E78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC8661BB1F5C2E6100958E78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC8661C91F5C2E6100958E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC8661CA1F5C2E6100958E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC8661CC1F5C2E6100958E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RR2B862M79;
+				INFOPLIST_FILE = MylesJazz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.julzelements.MylesJazz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EC8661CD1F5C2E6100958E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RR2B862M79;
+				INFOPLIST_FILE = MylesJazz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.julzelements.MylesJazz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EC8661CF1F5C2E6100958E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RR2B862M79;
+				INFOPLIST_FILE = MylesJazzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.julzelements.MylesJazzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MylesJazz.app/MylesJazz";
+			};
+			name = Debug;
+		};
+		EC8661D01F5C2E6100958E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RR2B862M79;
+				INFOPLIST_FILE = MylesJazzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.julzelements.MylesJazzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MylesJazz.app/MylesJazz";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC8661A91F5C2E6000958E78 /* Build configuration list for PBXProject "MylesJazz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8661C91F5C2E6100958E78 /* Debug */,
+				EC8661CA1F5C2E6100958E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC8661CB1F5C2E6100958E78 /* Build configuration list for PBXNativeTarget "MylesJazz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8661CC1F5C2E6100958E78 /* Debug */,
+				EC8661CD1F5C2E6100958E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC8661CE1F5C2E6100958E78 /* Build configuration list for PBXNativeTarget "MylesJazzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8661CF1F5C2E6100958E78 /* Debug */,
+				EC8661D01F5C2E6100958E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC8661A61F5C2E6000958E78 /* Project object */;
+}
