@@ -22,14 +22,24 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4dC-bI-Hb3">
-                                <rect key="frame" x="163" y="617" width="49" height="30"/>
+                                <rect key="frame" x="259" y="547" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="1fH-qg-C3k"/>
+                                    <constraint firstAttribute="width" constant="100" id="Lgt-Qg-t4j"/>
+                                </constraints>
                                 <state key="normal" title="Record"/>
                                 <connections>
                                     <action selector="recordAudioWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P8k-qW-r1V"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xJD-ej-eN7">
-                                <rect key="frame" x="23" y="617" width="32" height="30"/>
+                                <rect key="frame" x="16" y="547" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="4ia-WZ-aa7"/>
+                                    <constraint firstAttribute="height" constant="100" id="HKf-BF-6Mt"/>
+                                </constraints>
                                 <state key="normal" title="Stop"/>
                                 <connections>
                                     <action selector="stopRecordingWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nUA-NJ-FbX"/>
@@ -41,8 +51,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PNA-eS-TTS">
-                                <rect key="frame" x="16" y="588" width="343" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PNA-eS-TTS">
+                                <rect key="frame" x="16" y="518" width="343" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -52,12 +62,12 @@
                         <constraints>
                             <constraint firstItem="4dC-bI-Hb3" firstAttribute="top" secondItem="PNA-eS-TTS" secondAttribute="bottom" constant="8" id="5dn-yM-LRl"/>
                             <constraint firstItem="1pg-CX-dJQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9Yg-AB-geI"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="xJD-ej-eN7" secondAttribute="bottom" constant="20" id="K95-ao-YKU"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4dC-bI-Hb3" secondAttribute="bottom" constant="20" id="NEN-Nm-rsW"/>
                             <constraint firstAttribute="trailing" secondItem="PNA-eS-TTS" secondAttribute="trailing" constant="16" id="Q4Z-wd-R0A"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4dC-bI-Hb3" secondAttribute="bottom" constant="20" id="VG3-pi-QH3"/>
+                            <constraint firstItem="xJD-ej-eN7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="T0q-Ua-1I6"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="xJD-ej-eN7" secondAttribute="bottom" constant="20" id="fd5-za-g7o"/>
                             <constraint firstItem="1pg-CX-dJQ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="lzi-5h-Md7"/>
-                            <constraint firstItem="4dC-bI-Hb3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qMK-z9-N8D"/>
-                            <constraint firstItem="xJD-ej-eN7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="23" id="rcP-Li-fHM"/>
+                            <constraint firstAttribute="trailing" secondItem="4dC-bI-Hb3" secondAttribute="trailing" constant="16" id="rmL-hI-aar"/>
                             <constraint firstItem="PNA-eS-TTS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="uPH-x0-itA"/>
                         </constraints>
                     </view>

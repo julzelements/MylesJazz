@@ -16,15 +16,18 @@
 		EC2D03791F835B8F003E7B2C /* SystemDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2D03771F835B8F003E7B2C /* SystemDate.swift */; };
 		EC2D037B1F835CC3003E7B2C /* MockSystemDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2D037A1F835CC3003E7B2C /* MockSystemDate.swift */; };
 		EC2D037C1F835CC3003E7B2C /* MockSystemDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2D037A1F835CC3003E7B2C /* MockSystemDate.swift */; };
+		EC4045261F8A3A2300C11B0A /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4045251F8A3A2300C11B0A /* AudioRecorder.swift */; };
+		EC4045291F8A3A6B00C11B0A /* TestAudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4045281F8A3A6B00C11B0A /* TestAudioRecorder.swift */; };
+		EC40452A1F8A3A9800C11B0A /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4045251F8A3A2300C11B0A /* AudioRecorder.swift */; };
+		EC40452B1F8A3D3C00C11B0A /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC1A841F5C307B00EC0B15 /* RecordedAudio.swift */; };
+		EC40452C1F8A3D4000C11B0A /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC1A841F5C307B00EC0B15 /* RecordedAudio.swift */; };
 		EC8661B21F5C2E6100958E78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8661B11F5C2E6100958E78 /* AppDelegate.swift */; };
 		EC8661B41F5C2E6100958E78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8661B31F5C2E6100958E78 /* ViewController.swift */; };
 		EC8661B71F5C2E6100958E78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8661B51F5C2E6100958E78 /* Main.storyboard */; };
 		EC8661B91F5C2E6100958E78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8661B81F5C2E6100958E78 /* Assets.xcassets */; };
 		EC8661BC1F5C2E6100958E78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8661BA1F5C2E6100958E78 /* LaunchScreen.storyboard */; };
-		EC8661C71F5C2E6100958E78 /* MylesJazzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8661C61F5C2E6100958E78 /* MylesJazzTests.swift */; };
 		ECBC1A821F5C2F1100EC0B15 /* ironMan.wav in Resources */ = {isa = PBXBuildFile; fileRef = ECBC1A811F5C2F0A00EC0B15 /* ironMan.wav */; };
 		ECBC1A831F5C2F1200EC0B15 /* ironMan.wav in Resources */ = {isa = PBXBuildFile; fileRef = ECBC1A811F5C2F0A00EC0B15 /* ironMan.wav */; };
-		ECBC1A881F5C307B00EC0B15 /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC1A841F5C307B00EC0B15 /* RecordedAudio.swift */; };
 		ECBC1A891F5C307B00EC0B15 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC1A851F5C307B00EC0B15 /* PlaySoundsViewController.swift */; };
 		ECBC1A8A1F5C307B00EC0B15 /* Recognize.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC1A861F5C307B00EC0B15 /* Recognize.swift */; };
 		ECBC1A8B1F5C307B00EC0B15 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC1A871F5C307B00EC0B15 /* RecordSoundsViewController.swift */; };
@@ -47,6 +50,8 @@
 		EC2D03741F8325AC003E7B2C /* IDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDate.swift; sourceTree = "<group>"; };
 		EC2D03771F835B8F003E7B2C /* SystemDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemDate.swift; sourceTree = "<group>"; };
 		EC2D037A1F835CC3003E7B2C /* MockSystemDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSystemDate.swift; sourceTree = "<group>"; };
+		EC4045251F8A3A2300C11B0A /* AudioRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorder.swift; sourceTree = "<group>"; };
+		EC4045281F8A3A6B00C11B0A /* TestAudioRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAudioRecorder.swift; sourceTree = "<group>"; };
 		EC8661AE1F5C2E6100958E78 /* MylesJazz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MylesJazz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC8661B11F5C2E6100958E78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC8661B31F5C2E6100958E78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,7 +60,6 @@
 		EC8661BB1F5C2E6100958E78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC8661BD1F5C2E6100958E78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC8661C21F5C2E6100958E78 /* MylesJazzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MylesJazzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC8661C61F5C2E6100958E78 /* MylesJazzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MylesJazzTests.swift; sourceTree = "<group>"; };
 		EC8661C81F5C2E6100958E78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECBC1A811F5C2F0A00EC0B15 /* ironMan.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ironMan.wav; sourceTree = "<group>"; };
 		ECBC1A841F5C307B00EC0B15 /* RecordedAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
@@ -108,9 +112,26 @@
 			path = Parser;
 			sourceTree = "<group>";
 		};
+		EC4045241F8A3A0500C11B0A /* AudioRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				EC4045251F8A3A2300C11B0A /* AudioRecorder.swift */,
+			);
+			path = AudioRecorder;
+			sourceTree = "<group>";
+		};
+		EC4045271F8A3A5200C11B0A /* AudioRecorderTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC4045281F8A3A6B00C11B0A /* TestAudioRecorder.swift */,
+			);
+			path = AudioRecorderTests;
+			sourceTree = "<group>";
+		};
 		EC8661A51F5C2E6000958E78 = {
 			isa = PBXGroup;
 			children = (
+				EC4045241F8A3A0500C11B0A /* AudioRecorder */,
 				EC4045221F89E8D000C11B0A /* Parser */,
 				EC2D036D1F830DF7003E7B2C /* SubPlayer */,
 				ECBC1A801F5C2F0000EC0B15 /* TestAssets */,
@@ -149,8 +170,8 @@
 		EC8661C51F5C2E6100958E78 /* MylesJazzTests */ = {
 			isa = PBXGroup;
 			children = (
+				EC4045271F8A3A5200C11B0A /* AudioRecorderTests */,
 				EC2D03711F831213003E7B2C /* SubPlayerTests */,
-				EC8661C61F5C2E6100958E78 /* MylesJazzTests.swift */,
 				EC8661C81F5C2E6100958E78 /* Info.plist */,
 			);
 			path = MylesJazzTests;
@@ -276,8 +297,9 @@
 				EC2D03781F835B8F003E7B2C /* SystemDate.swift in Sources */,
 				EC2D036F1F831021003E7B2C /* TimeDatum.swift in Sources */,
 				ECBC1A8B1F5C307B00EC0B15 /* RecordSoundsViewController.swift in Sources */,
-				ECBC1A881F5C307B00EC0B15 /* RecordedAudio.swift in Sources */,
 				EC2D037B1F835CC3003E7B2C /* MockSystemDate.swift in Sources */,
+				EC4045261F8A3A2300C11B0A /* AudioRecorder.swift in Sources */,
+				EC40452B1F8A3D3C00C11B0A /* RecordedAudio.swift in Sources */,
 				EC8661B41F5C2E6100958E78 /* ViewController.swift in Sources */,
 				ECBC1A891F5C307B00EC0B15 /* PlaySoundsViewController.swift in Sources */,
 				EC2D03751F8325AC003E7B2C /* IDate.swift in Sources */,
@@ -290,13 +312,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC40452A1F8A3A9800C11B0A /* AudioRecorder.swift in Sources */,
 				EC2D03791F835B8F003E7B2C /* SystemDate.swift in Sources */,
 				EC2D03731F831753003E7B2C /* TestTimeDatum.swift in Sources */,
+				EC4045291F8A3A6B00C11B0A /* TestAudioRecorder.swift in Sources */,
 				EC2D037C1F835CC3003E7B2C /* MockSystemDate.swift in Sources */,
 				EC2D03761F8325AC003E7B2C /* IDate.swift in Sources */,
+				EC40452C1F8A3D4000C11B0A /* RecordedAudio.swift in Sources */,
 				ECBC1A8C1F5C308800EC0B15 /* Recognize.swift in Sources */,
 				EC2D03701F831021003E7B2C /* TimeDatum.swift in Sources */,
-				EC8661C71F5C2E6100958E78 /* MylesJazzTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
